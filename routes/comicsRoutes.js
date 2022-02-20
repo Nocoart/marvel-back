@@ -31,5 +31,5 @@ router.get("/comics/:characterId", async (req, res) => {
 		res.status(400).json({ error: error.message });
 	}
 });
-
+console.log("test");
 module.exports = router;
